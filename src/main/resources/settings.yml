@@ -1,0 +1,4 @@
+protection-radius: 4.5
+exceptions:
+  - artillery
+  - shipyard

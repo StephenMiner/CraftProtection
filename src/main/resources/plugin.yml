@@ -1,0 +1,13 @@
+name: CraftProtection
+version: '${project.version}'
+main: me.stephenminer.craftprotection.CraftProtection
+api-version: '1.20'
+depend:
+  - Movecraft
+commands:
+  craftProtectionRadius:
+    permission: "craft-prot.radius"
+    usage: /craftprotectionradius [radius]
+  craftProtectionReload:
+    permission: "craft-prot.reload"
+
